@@ -1,8 +1,8 @@
 # python-discord
 >:exclamation: This repository is for understanding the discord API.
 
-> IDE : VSCode <br/>
-> OS : Linux / Ubuntu <br/>
+> IDE : **VSCode** <br/>
+> OS : **Linux / Ubuntu** <br/>
 
 :books: Using Libraries :<br/>
   - discord
