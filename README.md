@@ -1,10 +1,10 @@
 # python-discord
->This repository is for understanding the discord API.
+>:exclamation: This repository is for understanding the discord API.
 
 > IDE : VSCode <br/>
 > OS : Linux / Ubuntu <br/>
 
-Using Libraries :<br/>
+:books: Using Libraries :<br/>
   - discord
   - os
   - math
@@ -12,7 +12,7 @@ Using Libraries :<br/>
   - dotenv
   - forex_python
 
-Available commands:
+:heavy_check_mark: Available commands:
  - clear
  - kick
  - ban
@@ -25,5 +25,5 @@ Available commands:
  - curr (current currency)
  - rand
 
-I will continue to improve the bot. I want to add more commands, games, spotify and youtube bots. 
+:part_alternation_mark:  I will continue to improve the bot. I want to add more commands, games, spotify and youtube bots. 
 This is just the beginning. 
