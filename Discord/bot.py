@@ -26,9 +26,6 @@ def convert(x: str, y: str, z: float):
 def rando(x: int, y: int):
     return random.randint(x, y)
 
-f = open("/home/abdullah/Desktop/Discord/Discord/files/words.txt","r")
-words = f.read()
-
 @client.event
 async def on_ready():
     print(f"{client.user.name} is online...")
@@ -48,14 +45,6 @@ async def on_command_error(ctx, error):
         await ctx.message.delete()
     else:
         raise error
-
-# @client.event
-# async def on_message(msg):
-#     for word in words:
-#         if word in msg.content:
-#             await msg.delete()
-
-#     await client.process_commands(msg)
 
 @client.command()    
 async def load(ctx, extension):
