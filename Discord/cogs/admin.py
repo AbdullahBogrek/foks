@@ -53,7 +53,7 @@ class Mod(commands.Cog):
         muted_role = ctx.guild.get_role(833793972731117639)
         await member.add_roles(muted_role)
         await ctx.send(member.mention + " has been muted.")
-        printf(f"{member} has been muted.")
+        print(f"{member} has been muted.")
 
     @commands.command()
     async def status(self, ctx, activity, *, state):
